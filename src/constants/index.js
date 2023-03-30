@@ -11,17 +11,15 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  apple,
+  self,
+  af,
+  port3,
+  port2,
+  port1,
   threejs,
 } from "../assets";
 
@@ -50,7 +48,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full-Stack Developer",
     icon: backend,
   },
   {
@@ -93,10 +91,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -116,55 +110,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Genius Admin",
+    company_name: "Apple",
+    icon: apple,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jul 2018 - Sep 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted in-depth diagnostics and assessments of each customer's unique issues, utilizing a wide range of tools and techniques to quickly identify and implement efficient and effective solutions for an average of 32 customers per day. Consistently exceeded customer satisfaction goals through personalized and empathetic interactions.",
+      "Undertook extensive training and development to enhance software and hardware knowledge, including iOS, iPhone, iMac, iWatch, and other Apple products, logging 32 hours of training per week to stay up- to-date with latest developments and emerging trends in industry.",
+      "Provided exceptional customer service by resolving complex technical issues with professionalism, patience, and empathy, resulting in consistently positive feedback and high customer satisfaction ratings.",
+      "Developed a reputation as a go-to resource for both customers and colleagues seeking technical support and problem-solving expertise."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Lead Technical Consultant",
+    company_name: "Austin Fraser",
+    icon: af,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2020 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded organic outreach efforts to build new relationships with clients, resulting in the successful signing of 4 long-term contracts with tech clients across California, Texas, and Illinois. Proactively communicated Austin Fraser's commitment to delivering high-quality services and developed a reputation as a trusted and knowledgeable advisor to clients seeking top-tier technical talent.",
+      "Led and mentored a team of 3 consultants while also focusing on producing and building a personal book of business. Leveraged exceptional leadership skills and subject matter expertise to achieve exceptional results, consistently exceeding targets and driving growth for the company.",
+      "Developed unique organization methods and streamlined processes that significantly improved team workflow, enhancing productivity and efficiency while reducing overhead costs. Implemented best practices and cutting-edge technology solutions to improve overall operations and deliver exceptional value to clients and candidates.",
+      "Successfully placed over 20 candidates on the perm-side and billed over 400K, demonstrating a track record of exceeding sales targets and delivering exceptional customer service. Built strong, lasting relationships with clients and candidates alike, providing personalized and empathetic support throughout the recruitment process.",
+      "Demonstrated a commitment to ongoing learning and professional development by learning how to code in order to speak more effectively with clients and candidates, becoming a true subject matter expert in the field. Utilized this knowledge to deliver exceptional value to clients and candidates and stay ahead of industry trends and emerging technologies."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Developer",
+    company_name: "Independent Contractor",
+    icon: self,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a Senior Developer to optimize the Web Scraper for their startup application using TypeScript, Cheerio, and Node. Leveraged strong technical expertise and problem-solving skills to improve performance and efficiency, resulting in a more streamlined and effective application.",
+      "Successfully implemented PR requests and contributed to the development of mySTICKY.app, a project designed to test Full-Stack capabilities using the PERN stack. Demonstrated exceptional skills in deploying via Docker/Kubernetes and setting up CI/CD pipelines, ensuring seamless integration and delivery of high-quality software solutions.",
+      "Leveraged community-driven tools and contributed to open-source projects to improve development processes, demonstrating a commitment to innovation and staying up-to-date with industry best practices. Actively participated in the development community and leveraged cutting-edge technologies to deliver exceptional value and results to clients.",
+      "Demonstrated proficiency in developing and deploying web applications weekly using the PERN stack (PostgreSQL, Express, React, and Node.js). Contributed to the development of reusable components and libraries to improve code quality and scalability, streamlining development processes and enhancing overall project performance.",
     ],
   },
 ];
@@ -172,84 +154,39 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I had an absolute pleasure seeing Nicho growing from a Trainee Full Desk Recruiter to a Lead Consultant with 3 people under his guidance. Nicho is a rare find, he is extremely motivated and works very hard to achieve his goals. He is one of the most creative people I met, Nicho always had very creative solutions to the challenges we had in our team and has a talent to get people easily to follow him. Some of his ideas became a DNA for our business development and recruitment strategies. During challenging times Nicho was the one to motivate the team and make them see the positive side of things. Nicho will be an amazing addition to any company and I can highly recommend him to anyone.",
+    name: "Alina Morgan",
+    designation: "Vice President of Austin Fraser",
+    company: "Austin Fraser",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I had the distinct pleasure of working with Nicho from Austin Fraser to grow our Salesforce development team at Techstars. We had an aggressive goal to fill out an entire team within the quarter. He quickly learned our requirements and the mission of our company. Using that, he had qualified candidates in our interview process within a week and we closed our first hire in the next week. He was so thorough with sourcing and screening candidates that he earned my trust to complete all initial steps of our hiring process. Through his dedication to fulfilling our goals, we filled our critical engineer positions and hit our hiring goal.",
+    name: "Craig Quincy",
+    designation: "Engineering Leader",
+    company: "Techstars",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+      "Working with Nicholos I had the absolute pleasure to see this young man shine everyday. Nicholos's composure, attention to detail and decision quality made him stand out above his peers. He is always enthusiastically putting himself into situations to help the team while learning a new aspect of the business. His approachability and constant smile made him a go to team member for his peers and leaders alike. This young man is an amazing asset and is going to do great things no matter what team he is a part of while always striving to bring others along with him. Thank you Nicholos for your hard work and dedication.",
+    name: "Kyle Gaubert",
+    designation: "Genius",
+    company: "Apple",
+    },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "pokePicker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Pokemon Inspired Team Builder!",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +194,90 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: port1,
+    source_code_link: "https://github.com/nick-is-coding/PokeAPI-project",
+  },
+  {
+    name: "STUDY SIDEKICK",
+    description:
+      "A React based Pomodoro timer that I created with 9 of my own original characters to keep you company! Pick one of the characters to study with and focus up! This was built using React Router, React Hooks, and a bunch of other cool React concepts.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: port3,
+    source_code_link: "https://github.com/nick-is-coding/yourstudysidekick",
+  },
+  {
+    name: "mySTICKY",
+    description:
+      "mySTICKY is a place where you can go leave me a sticky note!",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgres",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "kubernetes",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ci/cd",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "git",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: port2,
+    source_code_link: "https://github.com/nick-is-coding/mysticky",
   },
 ];
 
